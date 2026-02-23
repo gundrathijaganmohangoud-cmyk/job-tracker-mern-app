@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-const API = 'http://localhost:5000/api/jobs';
+const API = 'https://job-tracker-mern-app.onrender.com/api/jobs';
 
 function App() {
   const [jobs, setJobs] = useState([]);
